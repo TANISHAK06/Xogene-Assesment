@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
+import Header from "./Header";
 
 const DrugDetails = () => {
   const { id } = useParams();
@@ -29,6 +30,7 @@ const DrugDetails = () => {
   }
   return (
     <div className="min-h-screen flex flex-col">
+      <Header />
       <div className="flex-grow flex items-centre justify-centre bg-gray-100 py-12">
         <div className="w-full max-w-2xl p-8 bg-white rounded-lg shadow-lg space-y-4">
           <h2 className="text-3xl font-bold text-centre text-blue-600">
