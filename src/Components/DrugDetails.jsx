@@ -31,7 +31,9 @@ const DrugDetails = () => {
     <div className="min-h-screen flex flex-col">
       <div className="flex-grow flex items-centre justify-centre bg-gray-100 py-12">
         <div className="w-full max-w-2xl p-8 bg-white rounded-lg shadow-lg space-y-4">
-          <h2>{DrugDetails.name}</h2>
+          <h2 className="text-3xl font-bold text-centre text-blue-600">
+            {DrugDetails.name}
+          </h2>
           <div className="text-lg space-y-3">
             <p>
               <span className="font-semibold text-blue-700">RXCUI ID : </span>{" "}

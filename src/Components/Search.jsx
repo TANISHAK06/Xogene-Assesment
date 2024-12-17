@@ -4,6 +4,7 @@
 import axios from "axios";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import Header from "./Header";
 
 const Search = () => {
   const [query, setQuery] = useState("");
@@ -88,6 +89,7 @@ const Search = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
+      <Header />
       <div className="flex-grow flex items-center justify-center bg-gray-50 py-12">
         <div className="w-full max-w-lg mx-auto p-6 bg-white rounded-lg shadow-lg">
           <h2 className="text-2xl font-bold text-gray-800 text-center mb-4">
