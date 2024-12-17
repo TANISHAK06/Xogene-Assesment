@@ -11,7 +11,7 @@ Explain how to get a copy of the project up and running on a local machine.
 2. Navigate to the project directory:
 
     ```sh
-    cd Xogene-React
+    cd Xogene-Assesment
     ```
 
 3. Install dependencies:
