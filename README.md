@@ -1,27 +1,37 @@
-## Installation
+# Xogene Assessment
 
-Explain how to get a copy of the project up and running on a local machine.
+This repository contains the solution for the Xogene assessment. Follow the instructions below to set up and run the project locally.
 
-1. Clone the repository:
+## Prerequisites
 
-    ```sh
-    git clone https://github.com/TANISHAK06/Xogene-Assesment.git
-    ```
+Ensure you have the following installed on your system:
 
-2. Navigate to the project directory:
+- **Node.js** (v16.x or higher)
+- **npm** or **yarn**
+- **Git**
 
-    ```sh
-    cd Xogene-Assesment
-    ```
+## Clone the Repository
 
-3. Install dependencies:
+1. Open a terminal or command prompt.
+2. Clone the repository using the following command:
 
-    ```sh
-    npm i
-    ```
+   ```bash
+   git clone https://github.com/TANISHAK06/Xogene-Assesment.git
+   ```
+3. Navigate to the project directory:
 
-4. Run the project:
+   ```bash
+   cd Xogene-Assesment
+   ```
 
-    ```sh
-    npm run dev
-    ```
+## Install Dependencies
+
+Run the following command to install all required dependencies:
+
+```bash
+npm install 
+```
+To run the Application do :
+```bash
+npm run dev
+```
