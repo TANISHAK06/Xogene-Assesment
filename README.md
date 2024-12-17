@@ -5,7 +5,7 @@ Explain how to get a copy of the project up and running on a local machine.
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/BanksBond/Xogene-React.git
+    git clone https://github.com/TANISHAK06/Xogene-Assesment.git
     ```
 
 2. Navigate to the project directory:
