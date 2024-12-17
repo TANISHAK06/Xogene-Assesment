@@ -83,7 +83,7 @@ const Search = () => {
   };
 
   const handleSelect = (id) => {
-    navigate(`/drugs/${id}`);
+    navigate(`/drug/${id}`);
   };
 
   return (
